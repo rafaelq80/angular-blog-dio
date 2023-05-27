@@ -1,17 +1,15 @@
 <div class="container__bigcard">
   <div class="bigcard__photo">
-    <img src="https://i.imgur.com/dkw4UYX.jpg" alt="Blog Pessoal">
+    <img src="{{ photoCover }}" alt="Blog Pessoal">
   </div>
   <div class="bigcard__title">
     <h1>
-      <a href="#">Nova versão do Blog Pessoal</a>
+      <a [routerLink]="['content', id]">{{ cardTitle }}</a>
     </h1>
   </div>
   <div class="bigcard__description">
     <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat fugit ipsa sapiente at. Aut cupiditate quis
-      totam eos numquam quaerat amet debitis maxime ipsum? Veniam voluptatem debitis necessitatibus cupiditate
-      voluptatibus.
+      {{ cardDescription }}
     </p>
   </div>
 </div>

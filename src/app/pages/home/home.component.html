@@ -1,15 +1,31 @@
-<header>
-  <app-menubar></app-menubar>
-</header>
-
 <app-menutitle></app-menutitle>
 <div class="container__articles">
   <div class="articles__main">
-    <app-bigcard></app-bigcard>
+    <app-bigcard
+      id="1"
+      photoCover="https://i.imgur.com/dkw4UYX.jpg"
+      cardTitle="Nova versão do Blog"
+      cardDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+    </app-bigcard>
   </div>
   <div class="articles__others">
-    <app-smallcard></app-smallcard>
-    <app-smallcard></app-smallcard>
-    <app-smallcard></app-smallcard>
+    <app-smallcard
+      id="2"
+      photoCover="https://i.imgur.com/vIG6VfD.jpg"
+      cardTitle="A Internet em nossas vidas"
+      >
+    </app-smallcard>
+    <app-smallcard
+      id="3"
+      photoCover="https://i.imgur.com/UhWqNxv.jpg"
+      cardTitle="Cuidado com as Fake News"
+      >
+    </app-smallcard>
+      <app-smallcard
+      id="4"
+      photoCover="https://i.imgur.com/Gl5xWRi.jpg"
+      cardTitle="Confira as novidades do Mundo Mobile"
+      >
+    </app-smallcard>
   </div>
 </div>
